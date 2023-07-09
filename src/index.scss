@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet');
+$primary-color: #000000de;
+
+body {
+    font-family: "Lato", sans-serif;
+  
+    .breadcrumb {
+      margin: 20px 0 !important;
+      background-color: unset !important;
+  
+      .section {
+        color: #000000cc;
+  
+        font-size: 12px;
+      }
+    }
+    .filters{
+      margin-top: -12px;
+    }
+    .chart-container {
+      margin: 36px 0 !important;
+    }
+  
+    .ui.cards {
+      .card {
+        .content {
+          .header {
+            color: '$primary-color';
+          }
+          .meta {
+            font-size: 13px;
+            line-height: 16px;
+          }
+          .description {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            color: '$primary-color';
+          }
+          .video-link {
+            font-size: 12px;
+            line-height: 12px;
+            text-decoration: underline;
+            letter-spacing: 0px;
+            color: '$primary-color';
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 576px) {
+    .ui.six.cards > .card {
+      width: calc(32.666667% - 1.5em);
+      margin-left: 0.75em;
+      margin-right: 0.75em;
+    }
+  }
+  @media only screen and (max-width: 575px){
+  .filters{
+    margin-top: 20px !important;
+    gap:10px;
+  }}
+
+
+
+  

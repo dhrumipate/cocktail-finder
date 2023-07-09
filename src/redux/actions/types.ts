@@ -1,0 +1,4 @@
+export const SEARCH_COCKTAIL = 'SEARCH_COCKTAIL';
+export const FILTER_COCKTAIL = 'FILTER_COCKTAIL';
+export const SET_LOADING = 'SET_LOADING';
+export const SET_ERROR = 'SET_ERROR';
